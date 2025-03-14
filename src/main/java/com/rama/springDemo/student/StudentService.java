@@ -10,6 +10,7 @@ import java.util.List;
 public interface StudentService {
 
 
+    Student save(Student s);
 
     List<Student> findAllStudents();
 }
